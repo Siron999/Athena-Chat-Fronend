@@ -1,9 +1,19 @@
-html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Nunito", sans-serif !important;
+  width: 100%;
+  height: 100%;
+  padding: 40px !important;
+
+  background: linear-gradient(
+    218.17deg,
+    #2697ff 33.32%,
+    rgba(112, 86, 255, 0.780075) 53.77%,
+    rgba(216, 36, 187, 0.611465) 69.45%
+  );
+
+  background-attachment: fixed;
 }
 
 a {
@@ -13,4 +23,31 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.form-control {
+  font-size: 14px !important;
+  color: #4b4b4b !important;
+}
+
+label {
+  font-size: 14px !important;
+  color: #4b4b4b;
+}
+
+p {
+  font-size: 14px !important;
+  color: #4b4b4b;
+}
+
+.auth-button {
+  background: linear-gradient(
+    84.59deg,
+    #2697ff 12.81%,
+    rgba(112, 86, 255, 0.780075) 35.2%,
+    rgba(216, 36, 187, 0.611465) 71.76%
+  ) !important;
+  border-radius: 22px !important;
+  border: 0px !important;
+  font-weight: bold !important;
 }
